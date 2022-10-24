@@ -118,15 +118,15 @@ public class Text : MonoBehaviour
     {
         System.Collections.Generic.Dictionary<string, string> letter = new System.Collections.Generic.Dictionary<string, string>()
         {
-            {@"\xc4\x85", "¹"},
-            {@"\xc4\x87", "æ"},
-            {@"\xc4\x99", "ê"},
-            {@"\xc5\x82", "³"},
-            {@"\xc5\x84", "ñ"},
-            {@"\xc3\xb3", "ó"},
-            {@"\xc5\x9b", "œ"},
-            {@"\xc5\xbc", "¿"},
-            {@"\xc5\xba", "Ÿ"},
+            {@"\xc4\x85", "Ä…"},
+            {@"\xc4\x87", "c"},
+            {@"\xc4\x99", "Ä™"},
+            {@"\xc5\x82", "Å‚"},
+            {@"\xc5\x84", "Å„"},
+            {@"\xc3\xb3", "Ã³"},
+            {@"\xc5\x9b", "Å›"},
+            {@"\xc5\xbc", "Å¼"},
+            {@"\xc5\xba", "Åº"},
         };
 
         foreach(string letterKey in letter.Keys)
